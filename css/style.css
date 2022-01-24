@@ -70,5 +70,53 @@ body a{
 .question-section{
     color:#7E848C;
 }
+#offer{
+    position: absolute;
+    top: 5rem;
+    right: 0;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
 
+@media screen and (max-width: 992px) {
+    p {
+        font-size: 30px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 35px; 
+    }
+    button{
+        width: 30%;
+        margin:50px auto ;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    p{
+        font-size: 40px;
+    }
+
+    h1{
+        font-size: 55px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 45px; 
+    }
+    button{
+        width: 50%;
+        margin:100px auto ;
+    }
+}
 
