@@ -1,6 +1,31 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* body */
 body{
     font-family: 'Poppins', sans-serif;
+    color: #3E3E3E;
+}
+body a{
+    text-decoration: none;
+}
+
+/* fontawesome modify */
+.far ,.fas{
+    margin-right: 10px;
+}
+.far{
+    margin-right: 10px;
+}
+.far{
+    margin-right: 10px;
+}
+
+/* card color */
+.card-bg-color{
+    background: #3F87F5;
+}
+
+#our-pkg-blue-card{
+    transform: translateY(-7em); border-radius: 1.5rem;
 }
