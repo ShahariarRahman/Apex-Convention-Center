@@ -47,7 +47,7 @@ body a{
 #our-pkg-blue-card button{
     color: #3F87F5;
     font-weight: 600;
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
     font-size: 1.1rem;
 }
 .choose-plan-btn{
@@ -79,6 +79,44 @@ body a{
     font-size: 12px;
     font-weight: bold;
 }
+#apex-nowarp{
+   white-space: nowrap;
+}
+footer{
+    margin-top: 120px;
+}
+@media screen and (max-width: 1200px) {
+    p {
+        font-size: 20px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 30px; 
+    }
+    button{
+        width: 50%;
+        margin:100px auto ;
+        padding: 30px 30px;
+    }
+    #apex-nowarp{
+        white-space: normal;
+    }
+    #our-pkg-blue-card{
+        margin-top: 100px;
+    }
+    .accordion-button{
+        font-size: 25px;
+    }
+    .accordion-body{
+        font-size: 20px;
+    }
+}
+
 
 @media screen and (max-width: 992px) {
     p {
@@ -94,11 +132,23 @@ body a{
         font-size: 35px; 
     }
     button{
-        width: 30%;
-        margin:50px auto ;
+        width: 100%;
+        margin:100px auto ;
+        padding: 30px 30px;
+    }
+    #apex-nowarp{
+        white-space: normal;
+    }
+    #our-pkg-blue-card{
+        margin-top: 100px;
+    }
+    .accordion-button{
+        font-size: 30px;
+    }
+    .accordion-body{
+        font-size: 25px;
     }
 }
-
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
     p{
@@ -117,6 +167,21 @@ body a{
     button{
         width: 50%;
         margin:100px auto ;
+    }
+    button a{
+        font-size: 20px;
+    }
+    #apex-nowarp{
+        white-space: normal;
+    }
+    #our-pkg-blue-card{
+        margin-top: 100px;
+    }
+    .accordion-button{
+        font-size: 40px;
+    }
+    .accordion-body{
+        font-size: 30px;
     }
 }
 
