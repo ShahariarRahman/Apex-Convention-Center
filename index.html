@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light py-5">
             <div class="container d-flex justify-content-between">
                 <div>
-                    <a class="navbar-brand fw-bolder fs-2" href="#">Apex Convention Center</a>
+                    <a class="navbar-brand fw-bolder fs-2 " href="#">Apex Convention Center</a>
                 </div>
                 <div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -54,7 +54,7 @@
             </div>
         </nav>
         <!-- Carousel/images slides -->
-        <section>
+        <section class="container-fluid">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -162,13 +162,13 @@
     </header>
     <main>
         <!-- Our Package Section  -->
-        <h2 class="fs-1 fw-bolder text-center py-5 my-5">Our Package</h2>
-        <section class="container" style="transform: translateY(7em);">
+        <h2 class="fs-1 fw-bolder text-center py-5 my-5 text-dark">Our Package</h2>
+        <section class="container our-pkg-container" style="transform: translateY(7em);">
             <div class="row fs-5">
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div>
-                        <h3 class="fs-2 fw-bolder">$300</h3>
-                        <h4 class="fs-3 fw-bolder">Business Fair</h4>
+                        <h3 class="fs-1 fw-bolder">$300</h3>
+                        <h4 class="fs-3 fw-bolder my-4">Business Fair</h4>
                         <p>For Most Businesses Event
                             Like Book Fair, Craft Fair.</p>
                         <div>
@@ -178,15 +178,14 @@
                             <p><i class="far fa-check-circle"></i>Decoration Design</p>
                             <p><i class="far fa-check-circle"></i>Per Day Bill</p>
                         </div>
-                        <button
-                            class="btn btn-lg btn-primary bg-warning text-primary fw-bold px-5 border-0 rounded-pill mt-2">Choose
+                        <button class="choose-plan-btn border-0 rounded-pill mt-2">Choose
                             Plan</button>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div>
-                        <h3 class="fs-2 fw-bolder">$500</h3>
-                        <h4 class="fs-3 fw-bolder">Wedding Basic</h4>
+                        <h3 class="fs-1 fw-bolder">$500</h3>
+                        <h4 class="fs-3 fw-bolder my-4">Wedding Basic</h4>
                         <p>For weddings with basic plan and limited item</p>
                         <div>
                             <p><i class="far fa-check-circle"></i>Full Space Access</p>
@@ -195,20 +194,19 @@
                             <p><i class="far fa-check-circle"></i>Decoration Design</p>
                             <p><i class="far fa-check-circle"></i>Billed as Shift</p>
                         </div>
-                        <button
-                            class="btn btn-lg btn-primary bg-warning text-primary fw-bold px-5 border-0 rounded-pill mt-2">Choose
+                        <button class="choose-plan-btn border-0 rounded-pill mt-2">Choose
                             Plan</button>
                     </div>
                 </div>
-                <div class="col-3 card-bg-color text-white p-5" id="our-pkg-blue-card">
-                    <span
-                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger px-3 py-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 card-bg-color text-white p-5 shadow-lg"
+                    id="our-pkg-blue-card">
+                    <span class="red-badge translate-middle badge rounded-pill px-3 py-2">
                         Hot
                         <span class="visually-hidden"></span>
                     </span>
                     <div>
-                        <h3 class="fs-2 fw-bolder">$800</h3>
-                        <h4 class="fs-3 fw-bolder">Wedding Plus</h4>
+                        <h3 class="fs-1 fw-bolder text-white">$800</h3>
+                        <h4 class="fs-3 fw-bolder my-4 text-white">Wedding Plus</h4>
                         <p>For Most Weddings With
                             Premium Plans</p>
                         <div class="fs-5">
@@ -218,15 +216,14 @@
                             <p><i class="fas fa-check-circle"></i>Premium Decoration</p>
                             <p><i class="fas fa-check-circle"></i>Pay as Plan</p>
                         </div>
-                        <button
-                            class="btn btn-lg btn-primary bg-warning text-primary fw-bold px-5 border-0 rounded-pill mt-4">Choose
+                        <button class="border-0 rounded-pill mt-4">Choose
                             Plan</button>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div>
-                        <h3 class="fs-2 fw-bolder">$1200</h3>
-                        <h4 class="fs-3 fw-bolder">Corporate Event</h4>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="ms-5">
+                        <h3 class="fs-1 fw-bolder">$1200</h3>
+                        <h4 class="fs-3 fw-bolder my-4">Corporate Event</h4>
                         <p>For Most Corporate Business
                             Events</p>
                         <div>
@@ -236,23 +233,22 @@
                             <p><i class="far fa-check-circle"></i>Premium Decoration</p>
                             <p><i class="far fa-check-circle"></i>Pay as Plan</p>
                         </div>
-                        <button
-                            class="btn btn-lg btn-primary bg-warning text-primary fw-bold px-5 border-0 rounded-pill mt-2">Choose
+                        <button class="choose-plan-btn border-0 rounded-pill mt-2">Choose
                             Plan</button>
                     </div>
                 </div>
             </div>
         </section>
         <!-- frequencly asked question section -->
-        <section class="container my-5">
-            <h2 class="fs-1 fw-bolder text-center py-5 my-5">Frequently Asked Questions</h2>
+        <section class="container my-5 question-section">
+            <h2 class="fs-1 fw-bolder text-center py-5 my-5 text-dark">Frequently Asked Questions</h2>
             <!-- accordion part -->
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button bg-white text-black" type="button"
+                                <button class="accordion-button bg-white text-dark" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
                                     What’s the difference between event design and event planning?
@@ -261,15 +257,10 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse
-                                    plugin adds the appropriate classes that we use to style each element. These classes
-                                    control the overall
-                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
-                                    any of this with
-                                    custom CSS or overriding our default variables. It's also worth noting that just
-                                    about any HTML can go
-                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Event design and event planning work hand in hand to deliver a successful
+                                    event.Events by Knight offer tailor made
+                                    events. This means we incorporate both event design and event planning to create
+                                    that perfect event.
                                 </div>
                             </div>
                         </div>
@@ -277,21 +268,16 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                    How early do we need to start planning an event
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse
-                                    plugin adds the appropriate classes that we use to style each element. These classes
-                                    control the overall
-                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
-                                    any of this with
-                                    custom CSS or overriding our default variables. It's also worth noting that just
-                                    about any HTML can go
-                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Event design and event planning work hand in hand to deliver a successful
+                                    event.Events by Knight offer tailor made
+                                    events. This means we incorporate both event design and event planning to create
+                                    that perfect event.
                                 </div>
                             </div>
                         </div>
@@ -299,28 +285,40 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Accordion Item #3
+                                    What is your refund and cancellation policy?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse
-                                    plugin adds the appropriate classes that we use to style each element. These classes
-                                    control the overall
-                                    appearance, as well as the showing and hiding via CSS transitions. You can modify
-                                    any of this with
-                                    custom CSS or overriding our default variables. It's also worth noting that just
-                                    about any HTML can go
-                                    within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Event design and event planning work hand in hand to deliver a successful
+                                    event.Events by Knight offer tailor made
+                                    events. This means we incorporate both event design and event planning to create
+                                    that perfect event.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How do you keep budgets on track?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Event design and event planning work hand in hand to deliver a successful
+                                    event.Events by Knight offer tailor made
+                                    events. This means we incorporate both event design and event planning to create
+                                    that perfect event.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <img src="images/people.png" alt="">
+                <div class="col-lg-6 pt-2">
+                    <img class="w-75" src="images/people.png" alt="">
                 </div>
             </div>
         </section>
@@ -329,7 +327,7 @@
         <div class="container d-flex justify-content-between">
             <p class="text-white my-auto">© 2020 bike. All rights reserved</p>
             <div class="d-flex flex-column">
-                <p class=" ms-2 text-white">Get the App</p>
+                <p class=" ms-2 text-white fs-5">Get the App</p>
                 <img class="ms-2" width="135px" height="40px" src="icons/apple.svg" alt="">
                 <img width="155px" height="60px" src="icons/google.svg" alt="">
             </div>

@@ -16,16 +16,59 @@ body a{
 }
 .far{
     margin-right: 10px;
+    
+    color: #5243C2;
 }
 .far{
     margin-right: 10px;
 }
 
 /* card color */
+/* Our PKG Container */
+.our-pkg-container p{
+ color:#848199 ;    
+}
+
+.our-pkg-container h3,
+.our-pkg-container h4{
+    color:#231D4F ;    
+}
+
 .card-bg-color{
     background: #3F87F5;
 }
-
 #our-pkg-blue-card{
     transform: translateY(-7em); border-radius: 1.5rem;
 }
+/* Our PKG button */
+#our-pkg-blue-card p{
+    color: white;
+}
+#our-pkg-blue-card button{
+    color: #3F87F5;
+    font-weight: 600;
+    padding: 1rem 4rem;
+    font-size: 1.1rem;
+}
+.choose-plan-btn{
+    color: #3F87F5;
+    background: hsla(322, 81%, 77%, 0.10);
+    font-weight: 600;
+    padding: 1rem 4rem;
+    font-size: 1.1rem;
+}
+
+
+/* badge  */
+.red-badge{
+    background-color: #FF4E4E;
+    position:absolute;
+    top:0;
+    right:0;
+}
+/* question section */
+.question-section{
+    color:#7E848C;
+}
+
+
